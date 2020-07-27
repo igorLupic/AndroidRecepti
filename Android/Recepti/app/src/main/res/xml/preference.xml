@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="pref_sort_recepti"
+        android:key="pref_sort_recept_key">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_sort_recepti_by_tezina_key"
+            android:title="pref_sort_recepti"
+            android:summary="pref_sort_recepti_by_tezina_summary"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Ascending"
+            android:dependency="pref_sort_recepti_by_tezina_key"
+            android:key="pref_sort_recepti_by_tezina_key_list_asc"
+            />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Descending"
+            android:dependency="pref_sort_recepti_by_tezina_key"
+            android:key="pref_sort_recepti_by_tezina_key_list_desc"
+            />
+
+        <ListPreference
+            android:entries="@array/pref_syncRefreshingType_entries"
+            android:entryValues="@array/pref_syncRefreshingType_values"
+            android:key="@string/pref_refresh_recepti_by_tezina_key_list"
+            android:title="@string/pref_refresh_recepti"
+            android:summary="%s"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

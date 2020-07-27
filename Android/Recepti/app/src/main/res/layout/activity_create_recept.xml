@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateReceptActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/naziv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="naziv"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:maxLines="2" />
+
+        <EditText
+            android:id="@+id/vreme"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="vreme"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/sastojci"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="sastojci"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/priprema"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:hint="priprema"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/tezina"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="tezina"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:maxLines="1" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

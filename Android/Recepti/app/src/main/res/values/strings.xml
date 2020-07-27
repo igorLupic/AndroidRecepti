@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Recepti</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string-array name="pref_syncSortingType_entries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="pref_syncSortingType_values">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="pref_syncRefreshingType_entries">
+        <item>1min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>1h</item>
+        <item>10h</item>
+    </string-array>
+    <string-array name="pref_syncRefreshingType_values">
+        <item>1min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>1h</item>
+        <item>10h</item>
+    </string-array>
+
+    <string name="pref_sort_recepti">Sort recepte</string>
+    <string name="pref_sort_recepti_key">pref_sort_recepti_key</string>
+    <string name="pref_sort_recepti_by_tezina_key">pref_sort_recepti_by_tezina_key</string>
+    <string name="pref_sort_recepti_by_tezina_title">Sort by tezina</string>
+    <string name="pref_sort_recepti_by_tezina_summary">Sort recepti by tezina</string>
+    <string name="pref_sort_recepti_by_tezina_key_list_asc">pref_sort_recepti_by_tezina_key_list_asc</string>
+    <string name="pref_sort_recepti_by_tezina_key_list_desc">pref_sort_recepti_by_tezina_key_list_desc</string>
+    <string name="pref_refresh_recepti_by_tezina_key_list">pref_refresh_recepti_by_tezina_key_list</string>
+    <string name="pref_refresh_recepti">Refresh recepte</string>
+    <string name="title_activity_navigation_drawer">navigationDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
